@@ -1,0 +1,85 @@
+body {
+    background: #ff3d92;
+}
+
+#box {
+    transform: translateY(30%);
+    margin: auto;
+    width: 890px;
+    height: 390;
+    background: rgb(244, 244, 244);
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 10px 10px 20px 25px rgb(239, 57, 136);
+}
+
+#white {
+    background: #ffffff;
+    width: 890px;
+    height: 112px;
+    border-radius: 10px 10px 0 0;
+}
+
+#logo {
+    transform: translate(25%, 70%);
+}
+
+#dropDown{
+    transform: translate(0%, -35%);
+    margin-left: 640px;
+} 
+
+#sortBy {
+    padding-left: 10px;
+    font-size: 65%;
+    color: rgb(165, 165, 165);
+}
+
+select {
+    width: 220px;
+    height: 33px;
+    padding-left: 10px;
+    font-size: 85%;
+    color: rgb(165, 165, 165);
+    background: url(../assets/expandArrow.png) no-repeat right rgb(243, 243, 243);
+    -webkit-appearance: none;
+    background-position-x: 194px;
+    outline:none;
+    border: 1px solid rgb(151, 151, 151);
+    border-radius: 5px 5px 5px 5px;
+}
+
+#shadow {
+    width: 890px;
+    height: 1px;
+    background: rgb(244, 244, 244);
+    box-shadow: 0px 0px 20px 2px rgb(244, 244, 244);
+    outline: none;
+}
+
+#gray {
+    /* padding-top: 20px; */
+    background: rgb(244, 244, 244);
+    width: 890px;
+    /* height: 278px; */
+    border-radius: 0 0 10px 10px;
+    padding: 20px 30px 30px 30px;
+}
+
+.square {
+    background: #ffffff;
+    width: 260px;
+    height: 212px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 10px 1px 8px 1px;
+    padding-top: 2px;
+}
+
+.namePrice {
+    padding-top: 15px;
+    font-size: 80%;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(56, 139, 198)
+}
+
+
